@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+button{
+    height: 145px;
+    width: 145px;
+    background: #09919b;
+    padding: 0;
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: #094d52;
+    color: #b6c4c5;
+}
+
+.textores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 30px;
+    margin: 20px;
+}
